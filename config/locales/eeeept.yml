@@ -1,0 +1,22 @@
+pt:
+  user:
+    new:
+      title: Cadastro
+  links:
+    back: Voltar
+  activerecord:
+    models:
+      user: Usuário
+      room: Quartos
+  attributes:
+    user:
+      bio: Biografia
+      email: Email
+      full_name: Nome Completo
+      location: Localização
+      password: Senha
+      password_confirmation: Confirme sua senha
+    room:
+      description: Descrição
+      location: Localização
+      title: Título
